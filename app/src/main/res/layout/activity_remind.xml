@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333333">
+
+
+    <RelativeLayout
+        android:id="@+id/liner1"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/ib_back_remind"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="#333333"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="66dp"
+            android:text="Nhắc nhở"
+            android:textColor="#F8F8FF"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_done_remind"
+            android:layout_width="wrap_content"
+            android:layout_height="34dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="end|left"
+            android:layout_marginEnd="18dp"
+            android:background="#555555"
+            android:text="Done"
+            android:textColor="#FFFF00" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/edt_remind"
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        android:layout_below="@+id/liner1"
+        android:layout_marginTop="29dp"
+        android:background="#222222"
+        android:gravity="top"
+        android:hint="Type a message"
+        android:textColor="#F8F8FF"
+        android:textColorHint="#F8F8FF" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="224dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/i1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="Date: "
+            android:textColor="#F8F8FF"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/tv_date_remind"
+            android:layout_width="319dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@+id/i1"
+            android:text="01-01-2018"
+            android:textColor="#F8F8FF"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/i2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/i1"
+            android:layout_marginLeft="15dp"
+            android:text="Time: "
+            android:textColor="#F8F8FF"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/tv_time_remind"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/i1"
+            android:layout_toRightOf="@+id/i2"
+            android:text="00:00"
+            android:textColor="#F8F8FF"
+            android:textSize="25dp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

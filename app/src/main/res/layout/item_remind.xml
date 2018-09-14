@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/iv_remind"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="48dp"
+        app:srcCompat="@drawable/remind" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/iv_remind"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="19dp"
+        android:textColor="#F8F8FF"
+        android:text="20/5/2018" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/tv_title"
+        android:layout_alignTop="@+id/tv_date"
+        android:textColor="#F8F8FF"
+        android:text="10:13 AM" />
+
+    <TextView
+        android:id="@+id/tv_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/iv_remind"
+        android:layout_marginEnd="38dp"
+        android:text="Đang đợi"
+        android:textColor="@android:color/holo_orange_light" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/iv_remind"
+        android:layout_marginStart="124dp"
+        android:textColor="#F8F8FF"
+        android:text="Nhắc nhở" />
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_remind"
+        android:layout_alignStart="@+id/tv_title"
+        android:textColor="#F8F8FF"
+        android:text="Content" />
+</RelativeLayout>

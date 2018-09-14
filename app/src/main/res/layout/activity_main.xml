@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frameContent">
+    </FrameLayout>
+
+    <ImageButton
+        android:layout_margin="25dp"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:id="@+id/buttonAdd"
+        android:src="@drawable/add"
+        android:background="#363634"
+        android:scaleType="fitXY"
+        android:visibility="visible"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+    <ImageButton
+        android:layout_margin="25dp"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:id="@+id/buttonCancel"
+        android:src="@drawable/cancel"
+        android:background="#363634"
+        android:visibility="invisible"
+        android:scaleType="fitXY"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

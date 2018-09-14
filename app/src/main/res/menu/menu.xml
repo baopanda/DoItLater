@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/calender_menu"
+        android:title="Calender"
+        android:icon="@mipmap/calender"
+        app:showAsAction="always">
+        </item>
+    <item
+        android:id="@+id/menuSetting"
+        android:title="Setting">
+    </item>
+    <item
+        android:id="@+id/menuFeedback"
+        android:title="Feedback">
+    </item>
+    <item
+        android:id="@+id/menuRateUs"
+        android:title="Rate Us">
+
+    </item>
+    <item
+        android:id="@+id/menuAdvance"
+        android:title="Advance">
+    </item>
+</menu>

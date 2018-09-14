@@ -1,0 +1,9 @@
+<resources>
+    <string name="greeting">"Hello "</string>
+    <string name="facebook_app_id">1722066747887531</string>
+    <string name="fb_login_protocol_scheme">fb1722066747887531</string>
+    <string name="age_birthday_description0">"You are "</string>
+    <string name="age_birthday_description1">" years old and you are born on: "</string>
+    <string name="unknown_age">"You refuse to share your age or birthday."</string>\
+    <string name="app_name">DoItLater</string>
+</resources>
